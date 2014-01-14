@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+a{
+	text-decoration: none;
+}
+body {
+	line-height: 1;
+	font-size: 14px;
+	font-size: 1rem;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #444;
+
+}
+ol,
+ul {
+	list-style: none;
+}
+
+#page{
+	margin:2em 0.8em 2em 0.8em;
+	color: #6a6a6a;
+}
+
+/*头部样式*/
+.site-header{
+	margin-bottom: 1.2em;
+	margin-top: 1.2em;
+}
+.site-header hgroup{
+	margin-left: 2em;
+}
+.site-header h1 {
+		font-size: 1.8em;
+		font-size: 1.857142857rem;
+		line-height: 1.846153846rem;
+}
+
+.site-header h2 {
+		font-size: 0.8em;
+		font-size: 0.857142857rem;
+		line-height: 1.846153846rem;
+		font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.site-header h1 a, .site-header h2 a {
+		color: #515151;
+		display: inline-block;
+		text-decoration: none;
+}
+
+#site-navigation{
+	background-image: linear-gradient(to top,#ececec,#f9f9f9);
+}
+#site-navigation ul{
+margin-left: 2em;
+margin-left: 2rem;
+border-bottom: 1px solid #ededed;
+border-top: 1px solid #ededed;
+display: inline-block !important;
+text-align: left;
+}
+#site-navigation li{
+margin: 0 2em 0 0;
+margin: 0 2.857142857rem 0 0;
+position: relative;
+display: inline-block;
+vertical-align: middle;
+text-decoration: none;
+
+}
+#site-navigation li a{
+font-size: 12px;
+font-size: 0.857142857rem;
+line-height: 3.42857143;
+text-decoration: none;
+}
+#main{
+margin-left: 32px;
+margin-right: 32px;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+/*post 列表样式*/
+.entry-header{
+	margin-bottom: 22px;
+	margin-bottom: 1.614285714rem;
+}
+.entry-title{
+		font-size: 22px;
+		font-size: 1.571428571rem;
+		line-height: 1.2;
+		font-weight: normal;
+}
+.entry-title a{
+outline: none;
+color: #21759b;
+}
+.entry-title a:hover {
+color: #0f3647;
+}
+
+.clear:before,
+.clear:after,
+.wrapper:before,
+.wrapper:after,
+.format-status .entry-header:before,
+.format-status .entry-header:after {
+	display: table;
+	content: "";
+	clear:both;
+}
+#main article{
+clear:both;
+
+border-bottom: 4px double #ededed;
+margin-bottom: 24px;
+margin-bottom: 1.642857143rem;
+padding-bottom: 18px;
+padding-bottom: 1.214285714rem;
+word-wrap: break-word;
+-webkit-hyphens: auto;
+-moz-hyphens: auto;
+hyphens: auto;
+}
+
+#site_footer{
+	width:100%;
+	text-align: center;
+
+}
+#site_footer .author-info{
+	margin-top: 12px;
+	margin-top: 0.8rem;
+	margin-bottom: 32px;
+	margin-bottom: 2rem;
+
+}

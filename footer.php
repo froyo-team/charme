@@ -1,5 +1,5 @@
 </div>
-<footer>
+<footer id="site_footer">
 <div class="footer-copyright">
 &copy;2014-2017,charme
 </div>

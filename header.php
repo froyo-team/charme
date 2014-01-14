@@ -22,11 +22,7 @@
 				</hgroup>
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<h3 class="menu-toggle">
-						菜单
-					</h3>
-					<?php wp_nav_menu( 
-							array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?> 
 				</nav>	
 			</header>
 			<div id="main" class="wrapper">
